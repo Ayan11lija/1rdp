@@ -1,0 +1,11 @@
+# Infinite while loop
+while true; do
+    # Get the current time in HH:MM:SS format
+    current_time=$(date +"%H:%M:%S")
+    
+    # Print the current time with the message
+    echo "[$current_time] This loop will run forever until you stop it."
+    
+    # Optional: add a 1-second pause to prevent overwhelming the system
+    sleep 1
+done
