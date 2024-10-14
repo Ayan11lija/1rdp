@@ -5,7 +5,7 @@ int main()
 {
     int variable;
     cin >> variable;
-    if (variable % 2 == 0)
+    if (variable % 3 == 0)
     {
         cout << "Even Number" << endl;
     }
